@@ -28,13 +28,20 @@ mongodb.connect("mongodb://localhost:27017/t_lines", function(err, db) {
         pretty_name : "Park Street",
         line : "GLB",
         next_inbound : null,
+        next_outbound : "place-boyls"
+      },
+      {
+        stop_id : "place-boyls",
+        pretty_name : "Boylston",
+        line : "GLB",
+        next_inbound : "place-pktrm",
         next_outbound : "place-armnl"
       },
       {
         stop_id : "place-armnl",
         pretty_name : "Arlington",
         line : "GLB",
-        next_inbound : "place-pktrm",
+        next_inbound : "place-boyls",
         next_outbound : "place-coecl"
       },
       {
@@ -213,13 +220,20 @@ mongodb.connect("mongodb://localhost:27017/t_lines", function(err, db) {
         pretty_name : "Park Street",
         line : "GLC",
         next_inbound : "place-gover",
+        next_outbound : "place-boyls"
+      },
+      {
+        stop_id : "place-boyls",
+        pretty_name : "Boylston",
+        line : "GLC",
+        next_inbound : "place-pktrm",
         next_outbound : "place-armnl"
       },
       {
         stop_id : "place-armnl",
         pretty_name : "Arlington",
         line : "GLC",
-        next_inbound : "place-pktrm",
+        next_inbound : "place-boyls",
         next_outbound : "place-coecl"
       },
       {
@@ -342,13 +356,20 @@ mongodb.connect("mongodb://localhost:27017/t_lines", function(err, db) {
         pretty_name : "Park Street",
         line : "GLD",
         next_inbound : null,
+        next_outbound : "place-boyls"
+      },
+      {
+        stop_id : "place-boyls",
+        pretty_name : "Boylston",
+        line : "GLD",
+        next_inbound : "place-armnl",
         next_outbound : "place-armnl"
       },
       {
         stop_id : "place-armnl",
         pretty_name : "Arlington",
         line : "GLD",
-        next_inbound : "place-pktrm",
+        next_inbound : "place-boyls",
         next_outbound : "place-coecl"
       },
       {
@@ -506,13 +527,20 @@ mongodb.connect("mongodb://localhost:27017/t_lines", function(err, db) {
         pretty_name : "Park Street",
         line : "GLE",
         next_inbound : "place-gover",
+        next_outbound : "place-boyls"
+      },
+      {
+        stop_id : "place-boyls",
+        pretty_name : "Boylston",
+        line : "GLE",
+        next_inbound : "place-pktrm",
         next_outbound : "place-armnl"
       },
       {
         stop_id : "place-armnl",
         pretty_name : "Arlington",
         line : "GLE",
-        next_inbound : "place-pktrm",
+        next_inbound : "place-boyls",
         next_outbound : "place-coecl"
       },
       {
