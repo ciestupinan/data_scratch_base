@@ -11,7 +11,7 @@
 // NOTE: this will not clear the DB first, so don't run multiple times (or
 // clear before you do).
 
-// Run like 'node make_line_info_db.js'. Requires mongodb from npm.
+// Run like 'node make_stop_boardings_db.js'. Requires mongodb from npm.
 
 var mongodb = require("mongodb").MongoClient;
 
