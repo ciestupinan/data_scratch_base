@@ -52,7 +52,7 @@ mongodb.connect("mongodb://localhost:27017/t_lines", function(err, db) {
 		stop_boardings: 8119
 		},
 		{
-		stop_id : "place-boyls"
+		stop_id : "place-boyls",
 		stop_boardings: 6826
 		},
 		{
